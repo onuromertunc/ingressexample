@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: forgot
+  namespace: test
+data:
+  index.html: |
+    forgot
